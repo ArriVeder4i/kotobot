@@ -5,7 +5,7 @@ from openai import OpenAI
 import threading
 
 # Инициализация бота
-bot = telebot.TeleBot("7696651397:AAFYU82RPWfqTrJwNJ9qMb4JY6nKA4oX0tw")
+bot = telebot.TeleBot("")
 
 # Состояния для хранения данных пользователя (в контексте чата)
 USER_DATA = {}
